@@ -10,7 +10,6 @@ public class Beer implements Beverages{
     @Column(name = "beerID")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int beerID;
-
     @Column(name = "name")
     private String name;
     @Column(name = "volume")
@@ -22,18 +21,22 @@ public class Beer implements Beverages{
     @Column(name = "price")
     private float price;
 
-    public int getBeerID() {
-        return beerID;
+    @Override
+    public void setID(int id) {
+        this.beerID = id;
     }
 
-    public void setBeerID(int beerID) {
-        this.beerID = beerID;
+    @Override
+    public int getID() {
+        return this.beerID;
     }
 
+    @Override
     public String getName() {
         return name;
     }
 
+    @Override
     public void setName(String name) {
         this.name = name;
     }

@@ -5,6 +5,6 @@ import org.springframework.stereotype.Repository;
 import struts.inventorio.entities.Beer;
 
 @Repository
-public interface beerRepo extends JpaRepository<Beer, Integer> {
+public interface beerRepo extends beveragesRepo<Beer> {
 }
 
