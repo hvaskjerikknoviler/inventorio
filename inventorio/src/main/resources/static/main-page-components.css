@@ -1,0 +1,49 @@
+
+
+.main-page-center {
+    text-align: center;
+}
+.main-page-font{
+    font: 22px "Cambria";
+}
+body {
+    height: 100%;
+    margin: 0;
+}
+.main-page-upper-bar {
+    background-color: antiquewhite;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    border-bottom-style: ridge;
+    border-bottom-color: gray;
+    border-bottom-width: 2px;
+}
+.main-page-left-bar {
+    position: fixed;
+    width: 15%;
+    background-color: antiquewhite;
+    height: 100%;
+    top: 102px;
+
+    border-right-style: ridge;
+    border-right-color: gray;
+}
+
+.main-page-right-bar {
+    position: fixed;
+    width: 15%;
+    background-color: antiquewhite;
+    height: 100%;
+    top: 102px;
+    right: 0;
+    border-left-style: ridge;
+    border-left-color: gray;
+}
+.main-page-bar-button{
+    height: 5%;
+    width: 100%;
+    border-bottom-style: ridge;
+    background-color: antiquewhite;
+}
+

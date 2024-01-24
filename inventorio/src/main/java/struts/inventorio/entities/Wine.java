@@ -8,7 +8,7 @@ import org.springframework.boot.context.properties.bind.DefaultValue;
 
 @Entity
 @Table(name = "wine")
-public class Wine implements Beverages{
+public class Wine{
     @Id
     @Column(name = "wineID")
     private int wineID;
@@ -22,22 +22,22 @@ public class Wine implements Beverages{
     private float price;
 
 
-    @Override
+
     public void setID(int id) {
         this.wineID = id;
     }
 
-    @Override
+
     public int getID() {
         return this.wineID;
     }
 
-    @Override
+
     public void setName(String name) {
         this.name = name;
     }
 
-    @Override
+
     public String getName() {
         return this.name;
     }

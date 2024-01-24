@@ -4,15 +4,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import struts.inventorio.entities.Beer;
 import struts.inventorio.entities.Wine;
-import struts.inventorio.repositories.beveragesRepo;
+import struts.inventorio.repositories.BeerRepo;
+import struts.inventorio.repositories.WineRepo;
 
 @Service
 public class beveragesServiceLayerImpl implements beveragesServiceLayer{
-    private final beveragesRepo<Beer> beerRepository;
-    private final beveragesRepo<Wine> wineRepository;
+    private BeerRepo beerRepository;
+    private WineRepo wineRepository;
 
     @Autowired
-    public beveragesServiceLayerImpl(beveragesRepo<Beer> beerRepository, beveragesRepo<Wine> wineRepository) {
+    public beveragesServiceLayerImpl(BeerRepo beerRepository, WineRepo wineRepository) {
         this.beerRepository = beerRepository;
         this.wineRepository = wineRepository;
     }
