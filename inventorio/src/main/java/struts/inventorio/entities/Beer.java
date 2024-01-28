@@ -11,6 +11,10 @@ public class Beer{
     private int beerID;
     @Column(name = "name")
     private String name;
+    @Column(name = "brewery")
+    public String brewery;
+    @Column(name = "alc_vol")
+    public float alc_vol;
     @Column(name = "volume")
     private float volume;
     @Column(name = "quantity")
@@ -19,6 +23,30 @@ public class Beer{
     private boolean keg;
     @Column(name = "price")
     private float price;
+
+    public int getBeerID() {
+        return beerID;
+    }
+
+    public void setBeerID(int beerID) {
+        this.beerID = beerID;
+    }
+
+    public String getBrewery() {
+        return brewery;
+    }
+
+    public void setBrewery(String brewery) {
+        this.brewery = brewery;
+    }
+
+    public float getAlc_vol() {
+        return alc_vol;
+    }
+
+    public void setAlc_vol(float alc_vol) {
+        this.alc_vol = alc_vol;
+    }
 
     public void setID(int id) {
         this.beerID = id;

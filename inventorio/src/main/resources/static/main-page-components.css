@@ -1,49 +1,195 @@
 
 
-.main-page-center {
-    text-align: center;
-}
-.main-page-font{
-    font: 22px "Cambria";
-}
+/*GENERAL*/
+
 body {
     height: 100%;
     margin: 0;
 }
+
+
+
+/*UPPER BAR*/
+
+.main-page-center-logo {
+    text-align: center;
+    margin-top: 40px;
+    color: #393457
+}
 .main-page-upper-bar {
-    background-color: antiquewhite;
+    background-color: #657392;
     height: 100px;
     position: fixed;
     width: 100%;
     border-bottom-style: ridge;
-    border-bottom-color: gray;
+    border-bottom-color: #505841;
     border-bottom-width: 2px;
+}
+
+/*SIDE BARS*/
+
+.main-page-bar-head {
+    text-align: center;
+    font: 26px "Tahoma";
+    margin-top: 11%;
+    margin-bottom: 11%;
+    font-weight: bold;
+    color: #584a41;
+
+}
+.main-page-bar-font{
+    font: 22px "Cambria";
+    color: #584a41;
 }
 .main-page-left-bar {
     position: fixed;
     width: 15%;
-    background-color: antiquewhite;
+    background-color: #657392;
     height: 100%;
-    top: 102px;
+    top: 101px;
 
     border-right-style: ridge;
-    border-right-color: gray;
+    border-right-color: #505841;
 }
 
 .main-page-right-bar {
     position: fixed;
     width: 15%;
-    background-color: antiquewhite;
+    background-color: #657392;
     height: 100%;
-    top: 102px;
+    top: 101px;
     right: 0;
     border-left-style: ridge;
-    border-left-color: gray;
+    border-left-color: #505841;
 }
 .main-page-bar-button{
-    height: 5%;
+    height: 40px;
     width: 100%;
+
     border-bottom-style: ridge;
-    background-color: antiquewhite;
+    border-top-style: ridge;
+    border-color: #505841;
+
+    background-color: #657392;
+    clear: both;
+    display: inline-block;
+}
+.main-page-bar-button:hover{
+    background-color: #584a41;
+}
+.main-page-bar-button-text{
+    text-align: center;
 }
 
+/*ACTIVITY AREA*/
+
+.main-page-activity-area-pos{
+    top: 101.9px;
+    left: 15.1%;
+    background-color: #ffffff;
+    position: fixed;
+    width: 69.8%;
+    height: 100%;
+}
+.main-page-activity-area-button {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    margin: 4px 4px;
+    float: left;
+    clear: right;
+}
+.main-page-activity-area-button:hover{
+    background-color: gray;
+}
+
+.main-page-activity-area-button-text{
+    text-align: center;
+    height: 100px;
+    vertical-align: center;
+}
+
+
+
+/*LISTS*/
+
+ul theme1{
+    list-style-type: none;
+}
+li boxed{
+    display: inline-block;
+    height: 40px;
+    width: 100%;
+
+}
+li boxed:hover{
+    background-color: #d9e7be;
+}
+/*
+#ff0040
+#131313
+#1b1b1b
+#272727
+#3d3d3d
+#5d5d5d
+#858585
+#b4b4b4
+#ffffff
+#c7cfdd
+#92a1b9
+#657392
+#424c6e
+#2a2f4e
+#1a1932
+#0e071b
+#1c121c
+#391f21
+#5d2c28
+#8a4836
+#bf6f4a
+#e69c69
+#f6ca9f
+#f9e6cf
+#edab50
+#e07438
+#c64524
+#8e251d
+#ff5000
+#ed7614
+#ffa214
+#ffc825
+#ffeb57
+#d3fc7e
+#99e65f
+#5ac54f
+#33984b
+#1e6f50
+#134c4c
+#0c2e44
+#00396d
+#0069aa
+#0098dc
+#00cdf9
+#0cf1ff
+#94fdff
+#fdd2ed
+#f389f5
+#db3ffd
+#7a09fa
+#3003d9
+#0c0293
+#03193f
+#3b1443
+#622461
+#93388f
+#ca52c9
+#c85086
+#f68187
+#f5555d
+#ea323c
+#c42430
+#891e2b
+#571c27
+*/

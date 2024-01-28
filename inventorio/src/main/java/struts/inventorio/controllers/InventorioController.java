@@ -7,7 +7,7 @@ import struts.inventorio.serviceLayer.beveragesServiceLayer;
 
 @Controller
 public class InventorioController {
-    private beveragesServiceLayer BeveragesServiceLayer;
+    private final beveragesServiceLayer BeveragesServiceLayer;
 
     @Autowired
     public InventorioController(beveragesServiceLayer BeveragesServiceLayer) {
